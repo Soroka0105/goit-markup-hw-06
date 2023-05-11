@@ -432,7 +432,8 @@ p {
   justify-content: center;
   color: #8e8f99;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-icon {
@@ -545,7 +546,7 @@ p {
 /* Filters section */
 /* buttons menu */
 .filers-section {
-  padding-top: 96px;
+  padding-top: 172px;
   padding-bottom: 120px;
 }
 .button-list {
@@ -603,6 +604,7 @@ p {
   width: 360px;
   margin-right: 24px;
   margin-bottom: 48px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-card:nth-child(3n) {
   margin-right: 0;
