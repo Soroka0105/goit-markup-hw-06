@@ -504,7 +504,6 @@ p {
 }
 /* Footer Social media */
 .footer-social {
-  margin-right: 80px;
 }
 .footer-socials {
   display: flex;
@@ -556,6 +555,22 @@ p {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background: none;
+  display: block;
+  width: 264px;
+  height: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-left: 16px;
+}
+.footer-input::placeholder {
+  color: #ffffff;
 }
 .footer-subscribe-btn {
   margin-left: 24px;
@@ -569,8 +584,22 @@ p {
   line-height: 24px;
   background-color: var(--button-text-collor);
   color: #ffffff;
+  width: 165px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-btn:hover {
+  background-color: #31d0aa;
+}
+.footer-subscribe-btn:focus {
+  background-color: #31d0aa;
 }
 .footer-btn-icon {
+  margin-left: 16px;
 }
 
 /* Portfolio page */
@@ -818,6 +847,15 @@ p {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+.form-textarea::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
 .form-textarea:focus {
   border: 1px solid #4d5ae5;
   outline: none;
@@ -873,15 +911,6 @@ p {
   color: #4d5ae5;
 }
 
-::placeholder {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
-}
 .form-btn {
   padding: 16px 32px;
   background: #4d5ae5;
